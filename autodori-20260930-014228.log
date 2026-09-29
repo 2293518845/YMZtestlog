@@ -1,0 +1,41 @@
+2026-09-30 01:42:28,730[DEBUG][root] Failed to get current version
+2026-09-30 01:42:29,655[INFO][root] MAA inited.
+2026-09-30 01:42:29,655[DEBUG][root] Device name for mumu: MuMu安卓设备-MuMuPlayer v5+
+2026-09-30 01:42:29,655[DEBUG][root] Resolved player type_: mumuv5
+2026-09-30 01:42:29,699[INFO][minitouch.py] device HBP-AL00 online
+2026-09-30 01:42:29,756[DEBUG][minitouch.py] minitouch already installed in 127.0.0.1:16384
+2026-09-30 01:42:29,757[INFO][minitouch.py] start minitouch: C:\Program Files\Netease\MuMu\nx_main\adb.exe -s 127.0.0.1:16384 shell /data/local/tmp/minitouch_EvATive7 -i -n minitouch_EvATive7_wNO5TXj
+2026-09-30 01:42:29,780[DEBUG][minitouch.py] reading std thread started for process 20260
+2026-09-30 01:42:29,824[DEBUG][minitouch.py] recv event: Note: device /dev/input/mouse1 is not supported by libevdev
+2026-09-30 01:42:29,824[DEBUG][minitouch.py] skip parsing event: Note: device /dev/input/mouse1 is not supported by libevdev: not found
+2026-09-30 01:42:29,871[DEBUG][minitouch.py] recv event: Note: device /dev/input/mouse0 is not supported by libevdev
+2026-09-30 01:42:29,871[DEBUG][minitouch.py] skip parsing event: Note: device /dev/input/mouse0 is not supported by libevdev: not found
+2026-09-30 01:42:29,933[DEBUG][minitouch.py] recv event: Note: device /dev/input/mice is not supported by libevdev
+2026-09-30 01:42:29,934[DEBUG][minitouch.py] skip parsing event: Note: device /dev/input/mice is not supported by libevdev: not found
+2026-09-30 01:42:30,127[DEBUG][minitouch.py] recv event: Type B touch device Xiaomi Input (720x1280 with 32 contacts) detected on /dev/input/event4 (score 21991)
+2026-09-30 01:42:30,127[DEBUG][minitouch.py] skip parsing event: Type B touch device Xiaomi Input (720x1280 with 32 contacts) detected on /dev/input/event4 (score 21991): not found
+2026-09-30 01:42:30,127[DEBUG][minitouch.py] recv event: Note: hard-limiting maximum number of contacts to 10
+2026-09-30 01:42:30,128[DEBUG][minitouch.py] skip parsing event: Note: hard-limiting maximum number of contacts to 10: not found
+2026-09-30 01:42:30,128[DEBUG][minitouch.py] recv event: Reading from STDIN
+2026-09-30 01:42:30,128[DEBUG][minitouch.py] skip parsing event: Reading from STDIN: not found
+2026-09-30 01:42:30,128[DEBUG][minitouch.py] recv event: v 1
+2026-09-30 01:42:30,128[DEBUG][minitouch.py] recv event: ^ 10 720 1280 0
+2026-09-30 01:42:30,129[DEBUG][minitouch.py] recv event: $ 10794
+2026-09-30 01:42:30,781[INFO][root] Mumu and MNT inited.
+2026-09-30 01:42:38,328[DEBUG][root] Match result with default model: ('春日影 (MyGO!!!!! ver.)', 97)
+2026-09-30 01:42:38,536[DEBUG][100007-hard] _process_ournotes_time_chart: Succeed: 237 notes
+2026-09-30 01:42:38,541[DEBUG][root] get SurfaceOrientation command: C:\Program Files\Netease\MuMu\nx_main\adb.exe -s 127.0.0.1:16384 shell dumpsys input|grep SurfaceOrientation
+2026-09-30 01:42:38,605[DEBUG][root] SurfaceOrientation: 1
+2026-09-30 01:42:38,609[DEBUG][root] Save song: "春日影 (MyGO!!!!! ver.)"
+2026-09-30 01:42:52,819[INFO][root] Start play
+2026-09-30 01:42:52,820[ERROR][root] Exception in wait_first_note: 'NoneType' object is not subscriptable
+2026-09-30 01:42:52,922[ERROR][root] Exception in wait_first_note: 'NoneType' object is not subscriptable
+2026-09-30 01:42:53,026[ERROR][root] Exception in wait_first_note: 'NoneType' object is not subscriptable
+2026-09-30 01:42:53,129[ERROR][root] Exception in wait_first_note: 'NoneType' object is not subscriptable
+2026-09-30 01:42:53,231[ERROR][root] Exception in wait_first_note: 'NoneType' object is not subscriptable
+2026-09-30 01:42:53,337[ERROR][root] Exception in wait_first_note: 'NoneType' object is not subscriptable
+2026-09-30 01:42:53,439[ERROR][root] Exception in wait_first_note: 'NoneType' object is not subscriptable
+2026-09-30 01:42:53,545[ERROR][root] Exception in wait_first_note: 'NoneType' object is not subscriptable
+2026-09-30 01:42:53,648[ERROR][root] Exception in wait_first_note: 'NoneType' object is not subscriptable
+2026-09-30 01:42:53,754[ERROR][root] Exception in wait_first_note: 'NoneType' object is not subscriptable
+2026-09-30 01:42:53,857[ERROR][root] Exception in wait_first_note: 'NoneType' object is not subscriptable
