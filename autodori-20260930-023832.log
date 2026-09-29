@@ -1,0 +1,91 @@
+2026-09-30 02:38:32,680[DEBUG][root] Failed to get current version
+2026-09-30 02:38:33,792[INFO][root] MAA inited.
+2026-09-30 02:38:33,793[DEBUG][root] Device name for mumu: MuMu安卓设备-MuMuPlayer v5+
+2026-09-30 02:38:33,793[DEBUG][root] Resolved player type_: mumuv5
+2026-09-30 02:38:33,837[INFO][minitouch.py] device HBP-AL00 online
+2026-09-30 02:38:33,888[DEBUG][minitouch.py] minitouch already installed in 127.0.0.1:16384
+2026-09-30 02:38:33,888[INFO][minitouch.py] start minitouch: C:\Program Files\Netease\MuMu\nx_main\adb.exe -s 127.0.0.1:16384 shell /data/local/tmp/minitouch_EvATive7 -i -n minitouch_EvATive7_qboMf3O
+2026-09-30 02:38:33,911[DEBUG][minitouch.py] reading std thread started for process 25700
+2026-09-30 02:38:33,963[DEBUG][minitouch.py] recv event: Note: device /dev/input/mouse1 is not supported by libevdev
+2026-09-30 02:38:33,963[DEBUG][minitouch.py] skip parsing event: Note: device /dev/input/mouse1 is not supported by libevdev: not found
+2026-09-30 02:38:34,010[DEBUG][minitouch.py] recv event: Note: device /dev/input/mouse0 is not supported by libevdev
+2026-09-30 02:38:34,010[DEBUG][minitouch.py] skip parsing event: Note: device /dev/input/mouse0 is not supported by libevdev: not found
+2026-09-30 02:38:34,089[DEBUG][minitouch.py] recv event: Note: device /dev/input/mice is not supported by libevdev
+2026-09-30 02:38:34,090[DEBUG][minitouch.py] skip parsing event: Note: device /dev/input/mice is not supported by libevdev: not found
+2026-09-30 02:38:34,269[DEBUG][minitouch.py] recv event: Type B touch device Xiaomi Input (720x1280 with 32 contacts) detected on /dev/input/event4 (score 21991)
+2026-09-30 02:38:34,269[DEBUG][minitouch.py] skip parsing event: Type B touch device Xiaomi Input (720x1280 with 32 contacts) detected on /dev/input/event4 (score 21991): not found
+2026-09-30 02:38:34,270[DEBUG][minitouch.py] recv event: Note: hard-limiting maximum number of contacts to 10
+2026-09-30 02:38:34,270[DEBUG][minitouch.py] skip parsing event: Note: hard-limiting maximum number of contacts to 10: not found
+2026-09-30 02:38:34,270[DEBUG][minitouch.py] recv event: Reading from STDIN
+2026-09-30 02:38:34,270[DEBUG][minitouch.py] skip parsing event: Reading from STDIN: not found
+2026-09-30 02:38:34,270[DEBUG][minitouch.py] recv event: v 1
+2026-09-30 02:38:34,271[DEBUG][minitouch.py] recv event: ^ 10 720 1280 0
+2026-09-30 02:38:34,271[DEBUG][minitouch.py] recv event: $ 11311
+2026-09-30 02:38:34,912[INFO][root] Mumu and MNT inited.
+2026-09-30 02:38:43,706[DEBUG][root] Match result with default model: ('エンプティパペット', 100)
+2026-09-30 02:38:43,914[DEBUG][100051-hard] _process_ournotes_time_chart: Succeed: 337 notes
+2026-09-30 02:38:43,923[DEBUG][root] get SurfaceOrientation command: C:\Program Files\Netease\MuMu\nx_main\adb.exe -s 127.0.0.1:16384 shell dumpsys input|grep SurfaceOrientation
+2026-09-30 02:38:43,981[DEBUG][root] SurfaceOrientation: 1
+2026-09-30 02:38:43,987[DEBUG][root] Save song: "エンプティパペット"
+2026-09-30 02:38:58,203[INFO][root] Start play
+2026-09-30 02:38:58,203[INFO][root] [PLAY] target_package=unknown
+2026-09-30 02:38:58,204[INFO][root] [PLAY] display_id=-1
+2026-09-30 02:38:58,204[INFO][root] [PLAY] resolution=(1280, 720)
+2026-09-30 02:38:58,204[INFO][root] [PLAY] orientation=1
+2026-09-30 02:38:58,204[INFO][root] [PLAY] wait_first_roi=(400, 450)
+2026-09-30 02:38:58,207[ERROR][root] [PLAY] status=FAILED Exception in wait_first_note
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Desktop\new\autodori-main\src\autodori.py", line 557, in wait_first_note
+    screen = current_player.ipc_capture_display()
+  File "C:\Users\Administrator\Desktop\new\autodori-main\src\player.py", line 48, in ipc_capture_display
+    return self.player.ipc_capture_display(self.display_id)[:, :, :3]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+TypeError: 'NoneType' object is not subscriptable
+2026-09-30 02:38:58,314[ERROR][root] [PLAY] status=FAILED Exception in wait_first_note
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Desktop\new\autodori-main\src\autodori.py", line 557, in wait_first_note
+    screen = current_player.ipc_capture_display()
+  File "C:\Users\Administrator\Desktop\new\autodori-main\src\player.py", line 48, in ipc_capture_display
+    return self.player.ipc_capture_display(self.display_id)[:, :, :3]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+TypeError: 'NoneType' object is not subscriptable
+2026-09-30 02:38:58,418[ERROR][root] [PLAY] status=FAILED Exception in wait_first_note
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Desktop\new\autodori-main\src\autodori.py", line 557, in wait_first_note
+    screen = current_player.ipc_capture_display()
+  File "C:\Users\Administrator\Desktop\new\autodori-main\src\player.py", line 48, in ipc_capture_display
+    return self.player.ipc_capture_display(self.display_id)[:, :, :3]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+TypeError: 'NoneType' object is not subscriptable
+2026-09-30 02:38:58,520[ERROR][root] [PLAY] status=FAILED Exception in wait_first_note
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Desktop\new\autodori-main\src\autodori.py", line 557, in wait_first_note
+    screen = current_player.ipc_capture_display()
+  File "C:\Users\Administrator\Desktop\new\autodori-main\src\player.py", line 48, in ipc_capture_display
+    return self.player.ipc_capture_display(self.display_id)[:, :, :3]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+TypeError: 'NoneType' object is not subscriptable
+2026-09-30 02:38:58,624[ERROR][root] [PLAY] status=FAILED Exception in wait_first_note
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Desktop\new\autodori-main\src\autodori.py", line 557, in wait_first_note
+    screen = current_player.ipc_capture_display()
+  File "C:\Users\Administrator\Desktop\new\autodori-main\src\player.py", line 48, in ipc_capture_display
+    return self.player.ipc_capture_display(self.display_id)[:, :, :3]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+TypeError: 'NoneType' object is not subscriptable
+2026-09-30 02:38:58,728[ERROR][root] [PLAY] status=FAILED Exception in wait_first_note
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Desktop\new\autodori-main\src\autodori.py", line 557, in wait_first_note
+    screen = current_player.ipc_capture_display()
+  File "C:\Users\Administrator\Desktop\new\autodori-main\src\player.py", line 48, in ipc_capture_display
+    return self.player.ipc_capture_display(self.display_id)[:, :, :3]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+TypeError: 'NoneType' object is not subscriptable
+2026-09-30 02:38:58,831[ERROR][root] [PLAY] status=FAILED Exception in wait_first_note
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Desktop\new\autodori-main\src\autodori.py", line 557, in wait_first_note
+    screen = current_player.ipc_capture_display()
+  File "C:\Users\Administrator\Desktop\new\autodori-main\src\player.py", line 48, in ipc_capture_display
+    return self.player.ipc_capture_display(self.display_id)[:, :, :3]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+TypeError: 'NoneType' object is not subscriptable
